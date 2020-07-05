@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02cd38c0-b4dc-42bc-b5e8-02c1bea523d3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1czjKO3pknH0N244n1rTHGXQTBI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="iris.platform.platformshop.service.admin" />
+      <recent name="iris.platform.platformshop.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="iris.platform.platformshop.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="iris.platform.platformshop.service" />
+      <recent name="iris.platform.platformshop.entity" />
+      <recent name="iris.platform.platformshop.controller" />
+      <recent name="iris.platform.platformshop.mapperservice.impl" />
+      <recent name="iris.platform.platformshop.mapperservice" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\service" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\mapperservice\impl" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\mapperservice" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\mapper" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\entity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="iris.platform.platformshop.controller.reqVo" />
+      <recent name="iris.platform.platformshop.controller.response" />
+      <recent name="iris.platform.platformshop.model" />
+      <recent name="iris.platform.platformshop.testAdmin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PlatformShopApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.entity.CodeGenerator" />
+      <module name="platform-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iris.platform.platformshop.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceTest.getCategoryWithChildrenModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="platform-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
+      <option name="METHOD_NAME" value="getCategoryWithChildrenModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceTest.getProductList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="platform-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
+      <option name="METHOD_NAME" value="getProductList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceTest.testCateByIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="platform-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
+      <option name="METHOD_NAME" value="testCateByIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemServiceTest.testSystemConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="platform-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
+      <option name="METHOD_NAME" value="testSystemConfig" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="platform" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iris.platform.platform.PlatformApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="platform-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iris.platform.platformshop.PlatformShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatfromCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="platfrom-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iris.platform.platfromcommon.PlatfromCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SystemServiceTest.getProductList" />
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="JUnit.SystemServiceTest.getCategoryWithChildrenModel" />
+        <item itemvalue="JUnit.SystemServiceTest.testSystemConfig" />
+        <item itemvalue="JUnit.SystemServiceTest.testCateByIndex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02cd38c0-b4dc-42bc-b5e8-02c1bea523d3" name="Default Changelist" comment="" />
+      <created>1591538251595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591538251595</updated>
+      <workItem from="1591538256754" duration="18429000" />
+      <workItem from="1592055841213" duration="611000" />
+      <workItem from="1592056485324" duration="15053000" />
+      <workItem from="1593789156303" duration="27870000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Assign_Data_Sources" timestamp="1591793486776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1591793486776" />
+    <state x="361" y="71" key="#Notifications" timestamp="1592142345731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592142345731" />
+    <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592145335581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1592145335581" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1592144323990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592144323990" />
+    <state x="499" y="203" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591796664164">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="203" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591796664164" />
+    <state x="534" y="271" width="468" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591797104657">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="534" y="271" width="468" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1591797104657" />
+    <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593863956663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593863956663" />
+    <state width="549" height="466" key="DebuggerActiveHint" timestamp="1593935473621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="549" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593935473621" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593865990838">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593865990838" />
+    <state width="1024" height="223" key="GridCell.Tab.0.bottom" timestamp="1593952037209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593952037209" />
+    <state width="1024" height="223" key="GridCell.Tab.0.center" timestamp="1593952037209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593952037209" />
+    <state width="1024" height="223" key="GridCell.Tab.0.left" timestamp="1593952037209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593952037209" />
+    <state width="1024" height="223" key="GridCell.Tab.0.right" timestamp="1593952037209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593952037209" />
+    <state width="1024" height="223" key="GridCell.Tab.1.bottom" timestamp="1593952037211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
+    <state width="1024" height="223" key="GridCell.Tab.1.center" timestamp="1593952037211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
+    <state width="1024" height="223" key="GridCell.Tab.1.left" timestamp="1593952037210">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593952037210" />
+    <state width="1024" height="223" key="GridCell.Tab.1.right" timestamp="1593952037211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
+    <state width="1024" height="223" key="GridCell.Tab.2.bottom" timestamp="1593952037212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593952037212" />
+    <state width="1024" height="223" key="GridCell.Tab.2.center" timestamp="1593952037211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
+    <state width="1024" height="223" key="GridCell.Tab.2.left" timestamp="1593952037211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
+    <state width="1024" height="223" key="GridCell.Tab.2.right" timestamp="1593952037212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="223" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593952037212" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1592062105911">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592062105911" />
+    <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1591888555987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1591888555987" />
+    <state x="502" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591887744378">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="502" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1591887744378" />
+    <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1593864934925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="11" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593864934925" />
+    <state x="178" y="113" key="new project wizard" timestamp="1591540784961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="113" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591540784961" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1593951036776">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593951036776" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/PublicController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductServiceImpl.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

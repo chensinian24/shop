@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="iris.platform.platformshop.mapper.SystemGroupMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="iris.platform.platformshop.entity.SystemGroup">
+        <id column="id" property="id" />
+        <result column="config_name" property="configName" />
+        <result column="fields" property="fields" />
+        <result column="info" property="info" />
+        <result column="name" property="name" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, config_name, fields, info, name
+    </sql>
+
+</mapper>

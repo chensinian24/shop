@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="iris.platform.platformshop.mapper.EbStoreCategoryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="iris.platform.platformshop.entity.EbStoreCategory">
+        <id column="id" property="id" />
+        <result column="pid" property="pid" />
+        <result column="cate_name" property="cateName" />
+        <result column="sort" property="sort" />
+        <result column="pic" property="pic" />
+        <result column="is_show" property="isShow" />
+        <result column="add_time" property="addTime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, pid, cate_name, sort, pic, is_show, add_time
+    </sql>
+
+</mapper>

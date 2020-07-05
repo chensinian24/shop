@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="iris.platform.platformshop.mapper.EbStoreProductMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="iris.platform.platformshop.entity.EbStoreProduct">
+        <id column="id" property="id" />
+        <result column="mer_id" property="merId" />
+        <result column="image" property="image" />
+        <result column="slider_image" property="sliderImage" />
+        <result column="store_name" property="storeName" />
+        <result column="store_info" property="storeInfo" />
+        <result column="keyword" property="keyword" />
+        <result column="bar_code" property="barCode" />
+        <result column="cate_id" property="cateId" />
+        <result column="price" property="price" />
+        <result column="vip_price" property="vipPrice" />
+        <result column="ot_price" property="otPrice" />
+        <result column="postage" property="postage" />
+        <result column="unit_name" property="unitName" />
+        <result column="sort" property="sort" />
+        <result column="sales" property="sales" />
+        <result column="stock" property="stock" />
+        <result column="is_show" property="isShow" />
+        <result column="is_hot" property="isHot" />
+        <result column="is_benefit" property="isBenefit" />
+        <result column="is_best" property="isBest" />
+        <result column="is_new" property="isNew" />
+        <result column="description" property="description" />
+        <result column="add_time" property="addTime" />
+        <result column="is_postage" property="isPostage" />
+        <result column="is_del" property="isDel" />
+        <result column="mer_use" property="merUse" />
+        <result column="give_integral" property="giveIntegral" />
+        <result column="cost" property="cost" />
+        <result column="is_seckill" property="isSeckill" />
+        <result column="is_bargain" property="isBargain" />
+        <result column="is_good" property="isGood" />
+        <result column="ficti" property="ficti" />
+        <result column="browse" property="browse" />
+        <result column="code_path" property="codePath" />
+        <result column="soure_link" property="soureLink" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, mer_id, image, slider_image, store_name, store_info, keyword, bar_code, cate_id, price, vip_price, ot_price, postage, unit_name, sort, sales, stock, is_show, is_hot, is_benefit, is_best, is_new, description, add_time, is_postage, is_del, mer_use, give_integral, cost, is_seckill, is_bargain, is_good, ficti, browse, code_path, soure_link
+    </sql>
+
+</mapper>
