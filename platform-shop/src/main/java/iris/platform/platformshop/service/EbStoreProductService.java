@@ -45,4 +45,8 @@ public interface EbStoreProductService extends IService<EbStoreProduct> {
      */
     List<StoreProductVo> getHotProducts(Integer pageNum, Integer pageSize);
 
+    StoreProductVo getProductDetail(Integer productId);
+
+
+
 }

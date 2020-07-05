@@ -91,8 +91,10 @@ public class SystemServiceTest extends PlatformShopApplicationTests {
 
 
     @Test
-    public void getProductList(){
+    public void getProductDetail(){
 
+        StoreProductVo productDetail = ebStoreProductService.getProductDetail(1);
+        log.info("==================={}",productDetail);
 
 
     }

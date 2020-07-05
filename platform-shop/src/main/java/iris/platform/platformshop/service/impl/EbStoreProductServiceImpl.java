@@ -15,6 +15,7 @@ import iris.platform.platformshop.vo.HotProductVo;
 import iris.platform.platformshop.vo.NewProductVo;
 import iris.platform.platformshop.vo.EbStoreCategoryVo;
 import iris.platform.platformshop.vo.StoreProductVo;
+import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -133,7 +134,6 @@ public class EbStoreProductServiceImpl extends ServiceImpl<EbStoreProductMapper,
         }
         //分页设置
         Page<EbStoreProduct> page = new Page<>(pageNum, pageSize);
-
         List<StoreProductVo> productsList = ebStoreProductMapper.getProductsList(page, wrapper);
         return productsList;
     }
@@ -152,5 +152,28 @@ public class EbStoreProductServiceImpl extends ServiceImpl<EbStoreProductMapper,
         Page<EbStoreProduct> page = new Page<>(pageNum, pageSize);
         List<StoreProductVo> productsList = ebStoreProductMapper.customSqlSelect(page, wrapper);
         return productsList;
+    }
+
+
+    @Override
+    public StoreProductVo getProductDetail(Integer productId) {
+        LambdaQueryWrapper<EbStoreProduct> wrapper = Wrappers.<EbStoreProduct>lambdaQuery();
+        wrapper.select(EbStoreProduct.class,info->!info.getColumn().isEmpty());
+        wrapper.eq(EbStoreProduct::getId,productId);
+        List<StoreProductVo> storeProductVos = ebStoreProductMapper.customSqlSelect(null, wrapper);
+        StoreProductVo storeProductVo = storeProductVos.get(0);
+        //设置虚假销量
+        storeProductVo.setFsales(ifNull(storeProductVo.getSales()) + ifNull(storeProductVo.getFicti()));
+        return storeProductVo;
+    }
+
+
+    private Integer ifNull(Integer bigDecimal){
+        if (bigDecimal==null){
+            return 0;
+        }else {
+            return bigDecimal;
+        }
+
     }
 }

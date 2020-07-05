@@ -29,4 +29,11 @@ public class ProductController {
         return BaseResponse.successResponse.of(productsList);
     }
 
+
+    @RequestMapping(value = "/detail/{productId}", method = RequestMethod.POST)
+    public BaseResponse detail(@PathVariable Integer productId) {
+        StoreProductVo productDetail = ebStoreProductService.getProductDetail(productId);
+        return BaseResponse.successResponse.of(productDetail);
+    }
+
 }

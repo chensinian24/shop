@@ -42,4 +42,5 @@ public interface EbStoreProductMapper extends BaseMapper<EbStoreProduct> {
     @Select("SELECT ${ew.sqlSelect} FROM eb_store_product ${ew.customSqlSegment}")
     List<StoreProductVo> customSqlSelect(Page<?> page, @Param(Constants.WRAPPER) Wrapper wrapper);
 
+
 }
