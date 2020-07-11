@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02cd38c0-b4dc-42bc-b5e8-02c1bea523d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/StoreProductVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/StoreProductVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductAttrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductAttrResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductCateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttrResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttrValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductCate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrResultMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductCateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductAttrResultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductAttrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductCateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductAttrResultServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductAttrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductCateServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +78,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service" />
+    <property name="last_opened_file_path" value="E:/newWorkstation/platform" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -257,12 +272,25 @@
       <workItem from="1591538256754" duration="18429000" />
       <workItem from="1592055841213" duration="611000" />
       <workItem from="1592056485324" duration="15053000" />
-      <workItem from="1593789156303" duration="30934000" />
+      <workItem from="1593789156303" duration="31490000" />
+      <workItem from="1594446956908" duration="2816000" />
     </task>
+    <task id="LOCAL-00001" summary="增加商品详情信息">
+      <created>1593963545250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593963545250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加商品详情信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加商品详情信息" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Assign_Data_Sources" timestamp="1591793486776">
@@ -293,30 +321,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593863956663" />
+    <state x="352" y="6" key="CommitChangelistDialog2" timestamp="1593963542996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="352" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593963542996" />
     <state width="549" height="466" key="DebuggerActiveHint" timestamp="1593963207965">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="549" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593963207965" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593865990838">
+    <state x="147" y="65" key="DiffContextDialog" timestamp="1593963520934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593865990838" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593963489197">
+    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1593963520934" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594450707949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593963489197" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593963489196">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594450707949" />
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1593963585018">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593963489196" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593963489196">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593963585018" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1593963585017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593963489196" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593963489197">
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593963585017" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1593963585017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593963489197" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593963585017" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1593963585017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593963585017" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593963489197">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
