@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="iris.platform.shop.dao.AddressDao">
+
+    <resultMap type="iris.platform.shop.entity.AddressEntity" id="addressMap">
+        <result property="id" column="id"/>
+        <result property="userId" column="user_id"/>
+        <result property="userName" column="user_name"/>
+        <result property="telNumber" column="tel_number"/>
+        <result property="postalCode" column="postal_Code"/>
+        <result property="nationalCode" column="national_Code"/>
+        <result property="provinceName" column="province_Name"/>
+        <result property="cityName" column="city_Name"/>
+        <result property="countyName" column="county_Name"/>
+        <result property="detailInfo" column="detail_Info"/>
+    </resultMap>
+
+    <select id="queryObject" resultType="iris.platform.shop.entity.AddressEntity">
+		select
+        tb_address.id,
+		tb_address.user_id,
+		tb_address.user_name,
+		tb_address.tel_number,
+		tb_address.postal_Code,
+		tb_address.national_Code,
+		tb_address.province_Name,
+		tb_address.city_Name,
+		tb_address.county_Name,
+		tb_address.detail_Info,
+        tb_user.username shop_user_name
+        from tb_address LEFT JOIN tb_user ON tb_address.user_id = tb_user.id
+		where tb_address.id = #{id}
+	</select>
+
+    <select id="queryList" resultType="iris.platform.shop.entity.AddressEntity">
+        select
+        tb_address.id,
+        tb_address.user_id,
+        tb_address.user_name,
+        tb_address.tel_number,
+        tb_address.postal_Code,
+        tb_address.national_Code,
+        tb_address.province_Name,
+        tb_address.city_Name,
+        tb_address.county_Name,
+        tb_address.detail_Info,
+        tb_user.username shop_user_name
+        from tb_address LEFT JOIN tb_user ON tb_address.user_id = tb_user.id
+        WHERE 1=1
+        <if test="userName != null and userName != ''">
+            AND tb_address.user_name LIKE concat('%', #{userName},'%')
+        </if>
+        <if test="telNumber != null and telNumber != ''">
+            AND tb_address.tel_number LIKE concat('%', #{telNumber},'%')
+        </if>
+        <choose>
+            <when test="sidx != null and sidx.trim() != ''">
+                order by ${sidx} ${order}
+            </when>
+            <otherwise>
+                order by id desc
+            </otherwise>
+        </choose>
+        <if test="offset != null and limit != null">
+            limit #{offset}, #{limit}
+        </if>
+    </select>
+
+    <select id="queryTotal" resultType="int">
+        select count(*) from tb_address
+        WHERE 1=1
+        <if test="userName != null and userName != ''">
+            AND tb_address.user_name LIKE concat('%', #{userName},'%')
+        </if>
+        <if test="telNumber != null and telNumber != ''">
+            AND tb_address.tel_number LIKE concat('%', #{telNumber},'%')
+        </if>
+    </select>
+
+    <insert id="save" parameterType="iris.platform.shop.entity.AddressEntity" useGeneratedKeys="true" keyProperty="id">
+		insert into tb_address(
+			`user_id`,
+			`user_name`,
+			`tel_number`,
+			`postal_Code`,
+			`national_Code`,
+			`province_Name`,
+			`city_Name`,
+			`county_Name`,
+			`detail_Info`)
+		values(
+			#{userId},
+			#{userName},
+			#{telNumber},
+			#{postalCode},
+			#{nationalCode},
+			#{provinceName},
+			#{cityName},
+			#{countyName},
+			#{detailInfo})
+	</insert>
+
+    <update id="update" parameterType="iris.platform.shop.entity.AddressEntity">
+        update tb_address
+        <set>
+            <if test="userId != null">`user_id` = #{userId}, </if>
+            <if test="userName != null">`user_name` = #{userName}, </if>
+            <if test="telNumber != null">`tel_number` = #{telNumber}, </if>
+            <if test="postalCode != null">`postal_Code` = #{postalCode}, </if>
+            <if test="nationalCode != null">`national_Code` = #{nationalCode}, </if>
+            <if test="provinceName != null">`province_Name` = #{provinceName}, </if>
+            <if test="cityName != null">`city_Name` = #{cityName}, </if>
+            <if test="countyName != null">`county_Name` = #{countyName}, </if>
+            <if test="detailInfo != null">`detail_Info` = #{detailInfo}</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+		delete from tb_address where id = #{value}
+	</delete>
+
+    <delete id="deleteBatch">
+        delete from tb_address where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

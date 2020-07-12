@@ -2,28 +2,707 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02cd38c0-b4dc-42bc-b5e8-02c1bea523d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_49.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_qcloudsms_qcloudsms_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qcloud_cos_api_5_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_chain_commons_chain_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_ruedigermoeller_fst_2_57.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_oschina_j2cache_j2cache_core_2_7_2_release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_core_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_taglib_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_struts_struts_tiles_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_tools_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jgroups_jgroups_3_6_13_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_velocity_1_4_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__sslext_sslext_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/config/IdentityPicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AdPositionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AttributeCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/ChannelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CollectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CommentPictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CouponController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/CouponGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/FeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/FootprintController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/GoodsAttributeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/GoodsGalleryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/GoodsIssueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/GoodsSpecificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/HelpIssueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/HelpTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/KeywordsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/OrderGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/RelatedGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/SearchHistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/ShippingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/SpecificationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/TopicCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/UserCouponController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/UserLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/AdDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/AdPositionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/AddressDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/AttributeCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/AttributeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/BrandDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CartDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/ChannelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CollectDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CommentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CommentPictureDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CouponDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/CouponGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/FeedbackDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/FootprintDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/GoodsAttributeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/GoodsGalleryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/GoodsIssueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/GoodsSpecificationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/HelpIssueDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/HelpTypeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/KeywordsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/OrderGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/RelatedGoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/SearchHistoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/ShippingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/SpecificationDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/TopicCategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/TopicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/UserCouponDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/dao/UserLevelDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/directive/LinkTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/directive/ShiroTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/directive/UserTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/AdEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/AdPositionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/AddressEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/AttributeCategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/AttributeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/BrandEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CartEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/ChannelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CollectEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CommentPictureEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CouponEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/CouponGoodsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/FeedbackEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/FootprintEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/GoodsAttributeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/GoodsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/GoodsGalleryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/GoodsIssueEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/GoodsSpecificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/HelpIssueEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/HelpTypeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/KeywordsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/OrderEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/OrderGoodsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/ProductEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/RelatedGoodsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/SearchHistoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/ShippingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/SpecificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/TopicCategoryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/TopicEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/UserCouponEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/entity/UserLevelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/interceptor/LogInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/AliyunCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/CloudStorageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/CloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/DiskCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/OSSFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/QcloudCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/oss/QiniuCloudStorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/AdPositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/AdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/AttributeCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/AttributeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/ChannelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CollectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CommentPictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CouponGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/FootprintService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/GoodsAttributeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/GoodsGalleryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/GoodsIssueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/GoodsSpecificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/HelpIssueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/HelpTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/KeywordsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/OrderGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/RelatedGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/SearchHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/ShippingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/SpecificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/TopicCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/UserCouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/UserLevelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/AdPositionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/AdServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/AttributeCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/AttributeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/ChannelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CollectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CommentPictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CouponGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/CouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/FeedbackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/FootprintServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/GoodsAttributeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/GoodsGalleryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/GoodsIssueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/GoodsSpecificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/HelpIssueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/HelpTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/KeywordsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/OrderGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/RelatedGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/SearchHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/ShippingServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/SpecificationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/TopicCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/UserCouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/UserLevelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/IPUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/RRExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/RequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/excel/Excel2003Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/excel/Excel2007Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/excel/Excel2Html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/excel/ExcelExport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/excel/ExcelImport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/util/excel/XssfDataType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityTemplateAvailabilityProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityToolboxView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/boot/bind/PropertySourceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/boot/bind/RelaxedNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/boot/bind/RelaxedPropertyResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/boot/web/EmbeddedVelocityToolboxView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/boot/web/EmbeddedVelocityViewResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/spring.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/support/SpringResourceLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/support/VelocityEngineFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/support/VelocityEngineFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/j2cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/AdDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/AdPositionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/AddressDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/AttributeCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/AttributeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/BrandDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CartDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/ChannelDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CollectDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CommentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CommentPictureDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CouponDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/CouponGoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/FeedbackDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/FootprintDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/GoodsAttributeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/GoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/GoodsGalleryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/GoodsIssueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/GoodsSpecificationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/HelpIssueDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/HelpTypeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/KeywordsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/OrderGoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/ProductDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/RelatedGoodsDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/SearchHistoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/ShippingDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/SpecificationDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/TopicCategoryDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/TopicDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/UserCouponDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/UserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/UserLevelDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/spring/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/spring/spring-vm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/navtab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/ad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/adposition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/attribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/attributecategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/brand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/channel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/collect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/coupon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/feedback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/footprint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/goods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/goodshistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/goodsissue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/goodsspecification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/helpissue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/helptype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/keywords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/searchhistory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/shopuser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/specification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/topic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/topiccategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/usercoupon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/shop/userlevel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/dept.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/generator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/macro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/oss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/region.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/schedule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/schedule_log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/smslog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/sys/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/js/test/iviewDemo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/static/spring.vm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/ad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/adposition.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/attribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/attributecategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/brand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/channel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/collect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/coupon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/feedback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/footprint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goodshistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goodsissue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goodsspecification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/helpissue.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/helptype.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/keywords.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/orderPrint.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/searchhistory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/shopuser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/specification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/topic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/topiccategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/usercoupon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/userlevel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/dept.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/generator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/macro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/oss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/region.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/schedule.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/schedule_log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/smslog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/toolbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/velocity-toolbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/velocity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/shop/service2admin/admin/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/annotation/DataFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/annotation/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/annotation/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/cache/J2CacheUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/cache/RegionCacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/controller/AbstractController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/controller/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/controller/SysMenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/controller/SysRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/controller/SysUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysConfigDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysMacroDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysRegionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysRoleDeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysSmsLogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/dao/SysUserRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SmsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysConfigEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysDeptEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysMacroEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysRegionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysRoleDeptEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysSmsLogEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/SysUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/TableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/entity/UserWindowDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/page/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/page/PageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysMacroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysRegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysRoleDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysRoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysSmsLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysUserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/SysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysMacroServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysRegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysRoleDeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysSmsLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/shiro/CluterShiroSessionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/shiro/UserRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/shiro/VelocityShiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/ApiRRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/BeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/CharUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/DealMapValueHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/IdUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/JsonDateSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/JsonTimeSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/MapUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/MyBeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/PageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/PageUtilsPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/QueryPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/ResourceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/ShiroUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/SmsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/TreeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/utils/XmlUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/AliyunGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/DiskGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/QcloudGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/QiniuGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/validator/group/UpdateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/java/iris/platform/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysConfigDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysDeptDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysMacroDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysRegionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysRoleDeptDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysRoleMenuDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysSmsLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platfrom-common/src/main/resources/mapper/SysUserRoleDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/AttributeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CartMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ChannelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentPictureMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FeedbackMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/FootprintMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsAttributeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsGalleryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsIssueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/GoodsSpecificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/HelpIssueMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/HelpTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/KeywordsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzBlobTriggersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzCalendarsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzCronTriggersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzFiredTriggersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzJobDetailsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzLocksMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzPausedTriggerGrpsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzSchedulerStateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzSimpleTriggersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzSimpropTriggersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/QrtzTriggersMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/RelatedGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ScheduleJobLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ScheduleJobMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/ShippingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SmsLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SpecificationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysMacroMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysOssMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRegionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleDeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysRoleMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysSmsLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysUserRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TokenMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TopicCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/TopicMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserCouponMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserLevelMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_13_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_engine_core_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/platform.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/platform.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductAttrController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductAttrResultController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductAttrValueController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/controller/EbStoreProductCateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttrResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttrValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/entity/EbStoreProductCate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrResultMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrValueMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/mapper/EbStoreProductCateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductAttrResultService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductAttrService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductAttrValueService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/EbStoreProductCateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductAttrResultServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductAttrServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductAttrValueServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/iris/platform/platformshop/service2admin/impl/EbStoreProductCateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/PlatformShopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/PlatformShopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/PublicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/product/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/reqVo/BaseQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/reqVo/StoreProductQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/response/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/BaseCustomEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/CodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbStoreCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbStoreProduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttrResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbStoreProductAttrValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbStoreProductCate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/EbSystemConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/SystemGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/entity/SystemGroupData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreCategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrResultMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductCateMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbStoreProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/EbSystemConfigMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/SystemGroupDataMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/mapper/SystemGroupMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreCategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductAttrResultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductAttrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductCateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbStoreProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/EbSystemConfigService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/SystemDataModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/SystemGroupDataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/SystemGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/admin/ISystemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/admin/SystemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductAttrResultServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductAttrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductCateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbSystemConfigServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/SystemGroupDataServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/SystemGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/BenifitProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/BestProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/EbStoreCategoryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/HotProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/NewProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/vo/StoreProductVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/EbStoreCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CollectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/EbStoreProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/SystemGroupDataMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SysConfigMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/mapper/SystemGroupMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AdPositionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/mapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/PlatformShopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/shop/PlatformShopApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platfrom-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platfrom-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EbStoreProductAttrMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CouponGoodsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EbStoreProductAttrResultMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AttributeCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EbStoreProductAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/EbStoreProductCateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SearchHistoryMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +740,41 @@
     </option>
   </component>
   <component name="ProjectId" id="1czjKO3pknH0N244n1rTHGXQTBI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service" />
-    <property name="last_opened_file_path" value="E:/newWorkstation/platform" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/platform-shop/src/main/resources/spring" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="iris.platform.platformshop.controller.reqVo" />
+      <recent name="iris.platform.platformshop.controller.response" />
+      <recent name="iris.platform.platformshop.model" />
+      <recent name="iris.platform.platformshop.testAdmin" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="iris.platform.platformshop.service.admin" />
       <recent name="iris.platform.platformshop.service.impl" />
@@ -93,27 +783,27 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="iris.platform.shop" />
       <recent name="iris.platform.platformshop.service" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\spring" />
+      <recent name="E:\workstation\platform\platfrom-common\src\main\java\iris\platform\common" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\templates" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\static\js" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="iris.platform.shop.util" />
       <recent name="iris.platform.platformshop.service" />
       <recent name="iris.platform.platformshop.entity" />
       <recent name="iris.platform.platformshop.controller" />
       <recent name="iris.platform.platformshop.mapperservice.impl" />
-      <recent name="iris.platform.platformshop.mapperservice" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\service" />
-      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\mapperservice\impl" />
-      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\mapperservice" />
-      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\mapper" />
-      <recent name="E:\workstation\platform\platform-shop\src\main\java\iris\platform\platformshop\entity" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="iris.platform.platformshop.controller.reqVo" />
-      <recent name="iris.platform.platformshop.controller.response" />
-      <recent name="iris.platform.platformshop.model" />
-      <recent name="iris.platform.platformshop.testAdmin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\static" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,13 +813,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SystemServiceTest.getProductDetail">
+  <component name="RunManager" selected="Spring Boot.PlatformShopApplication (1)">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.entity.CodeGenerator" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.shop.entity.CodeGenerator" />
       <module name="platform-shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iris.platform.platformshop.entity.*" />
+          <option name="PATTERN" value="iris.platform.shop.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,17 +827,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemServiceTest.getCategoryWithChildrenModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="platform-shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="PATTERN" value="iris.platform.shop.service2admin.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
-      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
-      <option name="METHOD_NAME" value="getCategoryWithChildrenModel" />
+      <option name="PACKAGE_NAME" value="iris.platform.shop.service2admin.admin" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.shop.service2admin.admin.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlatformShopApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="platform-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="iris.platform.shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="iris.platform.shop" />
+      <option name="MAIN_CLASS_NAME" value="iris.platform.shop.PlatformShopApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,7 +863,7 @@
       <module name="platform-shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="PATTERN" value="iris.platform.shop.service2admin.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,29 +879,13 @@
       <module name="platform-shop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
+          <option name="PATTERN" value="iris.platform.shop.service2admin.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
       <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
       <option name="METHOD_NAME" value="getProductList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemServiceTest.testSystemConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="platform-shop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="iris.platform.platformshop.service2admin.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="iris.platform.platformshop.service2admin.admin" />
-      <option name="MAIN_CLASS_NAME" value="iris.platform.platformshop.service2admin.admin.SystemServiceTest" />
-      <option name="METHOD_NAME" value="testSystemConfig" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,9 +898,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlatformShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="platform-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iris.platform.PlatformShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlatformShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="platform-shop" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="iris.platform.platformshop.PlatformShopApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="iris.platform.shop.PlatformShopApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,11 +921,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.PlatformShopApplicationTests.test" />
+        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="JUnit.SystemServiceTest.getProductDetail" />
         <item itemvalue="JUnit.SystemServiceTest.getProductList" />
-        <item itemvalue="Application.CodeGenerator" />
-        <item itemvalue="JUnit.SystemServiceTest.getCategoryWithChildrenModel" />
-        <item itemvalue="JUnit.SystemServiceTest.testSystemConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +942,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -274,6 +971,9 @@
       <workItem from="1592056485324" duration="15053000" />
       <workItem from="1593789156303" duration="31490000" />
       <workItem from="1594446956908" duration="2816000" />
+      <workItem from="1594475368575" duration="9355000" />
+      <workItem from="1594522212121" duration="11051000" />
+      <workItem from="1594563481255" duration="5723000" />
     </task>
     <task id="LOCAL-00001" summary="增加商品详情信息">
       <created>1593963545250</created>
@@ -289,6 +989,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="增加商品详情信息" />
     <option name="LAST_COMMIT_MESSAGE" value="增加商品详情信息" />
   </component>
@@ -301,26 +1002,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592142345731" />
-    <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592145335581">
+    <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594542940481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1592145335581" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1593961347863">
+    <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1594542940481" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1594541115084">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593961347863" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594541115084" />
     <state x="499" y="203" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591796664164">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="203" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591796664164" />
+    <state x="341" y="328" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594521270804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="328" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1594521270804" />
     <state x="534" y="271" width="468" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591797104657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="534" y="271" width="468" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1591797104657" />
+    <state x="539" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1594521080561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1594521080561" />
     <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593863956663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="288" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1593863956663" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594483142499">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594483142499" />
     <state x="352" y="6" key="CommitChangelistDialog2" timestamp="1593963542996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -329,114 +1042,99 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="549" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593963207965" />
-    <state x="147" y="65" key="DiffContextDialog" timestamp="1593963520934">
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1594525031458">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1593963520934" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594450707949">
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1594525031458" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594541712648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594450707949" />
-    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1593963585018">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594541712648" />
+    <state width="1024" height="225" key="GridCell.Tab.0.bottom" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593963585018" />
-    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1593963585017">
+    <state width="1024" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.0.center" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593963585017" />
-    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1593963585017">
+    <state width="1024" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.0.left" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593963585017" />
-    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1593963585017">
+    <state width="1024" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.0.right" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593963585017" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593963489197">
+    <state width="1024" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.1.bottom" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593963489197" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593963489197">
+    <state width="1024" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.1.center" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593963489197" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593963489197">
+    <state width="1024" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.1.left" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593963489197" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593963489197">
+    <state width="1024" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.1.right" timestamp="1594569317209">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593963489197" />
-    <state width="1024" height="223" key="GridCell.Tab.2.bottom" timestamp="1593952037212">
+    <state width="1024" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594569317209" />
+    <state width="1024" height="225" key="GridCell.Tab.2.bottom" timestamp="1594568855886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593952037212" />
-    <state width="1024" height="223" key="GridCell.Tab.2.center" timestamp="1593952037211">
+    <state width="1024" height="225" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594568855886" />
+    <state width="1024" height="225" key="GridCell.Tab.2.center" timestamp="1594568855886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
-    <state width="1024" height="223" key="GridCell.Tab.2.left" timestamp="1593952037211">
+    <state width="1024" height="225" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1594568855886" />
+    <state width="1024" height="225" key="GridCell.Tab.2.left" timestamp="1594568855886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593952037211" />
-    <state width="1024" height="223" key="GridCell.Tab.2.right" timestamp="1593952037212">
+    <state width="1024" height="225" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1594568855886" />
+    <state width="1024" height="225" key="GridCell.Tab.2.right" timestamp="1594568855886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="223" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593952037212" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1592062105911">
+    <state width="1024" height="225" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1594568855886" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1594541120023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592062105911" />
-    <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1591888555987">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594541120023" />
+    <state x="565" y="190" key="chooseDestDirectoryDialog" timestamp="1594523112889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1591888555987" />
+    <state x="565" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594523112889" />
     <state x="502" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591887744378">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="502" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1591887744378" />
-    <state x="447" y="11" width="642" height="801" key="find.popup" timestamp="1593864934925">
+    <state x="447" y="11" width="1040" height="801" key="find.popup" timestamp="1594568655182">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="11" width="642" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593864934925" />
+    <state x="447" y="11" width="1040" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1594568655182" />
     <state x="178" y="113" key="new project wizard" timestamp="1591540784961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="113" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591540784961" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1593961073913">
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1594568756596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593961073913" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594568756596" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/controller/PublicController.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/platformshop/service/impl/EbStoreProductServiceImpl.java</url>
-          <line>104</line>
+          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/service/impl/EbStoreProductServiceImpl.java</url>
+          <line>98</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/platform-shop/src/test/java/iris/platform/platformshop/service2admin/admin/SystemServiceTest.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="15" />
+          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/TestController.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="iris.platform.shop.mapper.SmsLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="iris.platform.common.entity.SmsLog">
+        <id column="id" property="id" />
+        <result column="user_id" property="userId" />
+        <result column="phone" property="phone" />
+        <result column="log_date" property="logDate" />
+        <result column="sms_code" property="smsCode" />
+        <result column="send_status" property="sendStatus" />
+        <result column="sms_text" property="smsText" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, user_id, phone, log_date, sms_code, send_status, sms_text
+    </sql>
+
+</mapper>

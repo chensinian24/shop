@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="iris.platform.shop.dao.CommentDao">
+
+    <resultMap type="iris.platform.shop.entity.CommentEntity" id="commentMap">
+        <result property="id" column="id"/>
+        <result property="typeId" column="type_id"/>
+        <result property="valueId" column="value_id"/>
+        <result property="content" column="content"/>
+        <result property="addTime" column="add_time"/>
+        <result property="status" column="status"/>
+        <result property="userId" column="user_id"/>
+    </resultMap>
+
+    <select id="queryObject" resultType="iris.platform.shop.entity.CommentEntity">
+		select
+			`id`,
+			`type_id`,
+			`value_id`,
+			`content`,
+			`add_time`,
+			`status`,
+			`user_id`
+		from tb_comment
+		where id = #{id}
+	</select>
+
+    <select id="queryList" resultType="iris.platform.shop.entity.CommentEntity">
+        select
+        tb_comment.id,
+        tb_comment.type_id,
+        tb_comment.value_id,
+        tb_comment.content,
+        tb_comment.add_time,
+        tb_comment.status,
+        tb_comment.user_id,
+        tb_user.username user_name,
+        tb_goods.name value_name
+        from tb_comment LEFT JOIN tb_user ON tb_comment.user_id = tb_user.id
+        LEFT JOIN tb_goods ON tb_comment.value_id = tb_goods.id
+        WHERE 1=1
+        <if test="userName != null and userName.trim() != ''">
+            AND tb_user.username LIKE concat('%',#{userName},'%')
+        </if>
+        <if test="valueName != null and valueName.trim() != ''">
+            AND tb_goods.name LIKE concat('%',#{valueName},'%')
+        </if>
+        <if test="status != null">
+            AND tb_comment.status = #{status}
+        </if>
+        <if test="picUrl == 'true'">
+            AND EXISTS(SELECT 1 FROM tb_comment_picture WHERE tb_comment.id = tb_comment_picture.comment_id)
+        </if>
+        <choose>
+            <when test="sidx != null and sidx.trim() != ''">
+                order by ${sidx} ${order}
+            </when>
+            <otherwise>
+                order by tb_comment.id desc
+            </otherwise>
+        </choose>
+        <if test="offset != null and limit != null">
+            limit #{offset}, #{limit}
+        </if>
+    </select>
+
+    <select id="queryTotal" resultType="int">
+        select count(*) from tb_comment LEFT JOIN tb_user ON tb_comment.user_id = tb_user.id
+        LEFT JOIN tb_goods ON tb_comment.value_id = tb_goods.id
+        WHERE 1=1
+        <if test="userName != null and userName.trim() != ''">
+            AND tb_user.username LIKE concat('%',#{userName},'%')
+        </if>
+        <if test="valueName != null and valueName.trim() != ''">
+            AND tb_goods.name LIKE concat('%',#{valueName},'%')
+        </if>
+        <if test="status != null">
+            AND tb_comment.status = #{status}
+        </if>
+        <if test="picUrl == 'true'">
+            AND EXISTS(SELECT 1 FROM tb_comment_picture WHERE tb_comment.id = tb_comment_picture.comment_id)
+        </if>
+    </select>
+
+    <insert id="save" parameterType="iris.platform.shop.entity.CommentEntity" useGeneratedKeys="true" keyProperty="id">
+		insert into tb_comment(
+			`type_id`,
+			`value_id`,
+			`content`,
+			`add_time`,
+			`status`,
+			`user_id`)
+		values(
+			#{typeId},
+			#{valueId},
+			#{content},
+			#{addTime},
+			#{status},
+			#{userId})
+	</insert>
+
+    <update id="update" parameterType="iris.platform.shop.entity.CommentEntity">
+        update tb_comment
+        <set>
+            <if test="typeId != null">`type_id` = #{typeId},</if>
+            <if test="valueId != null">`value_id` = #{valueId},</if>
+            <if test="content != null">`content` = #{content},</if>
+            <if test="addTime != null">`add_time` = #{addTime},</if>
+            <if test="status != null">`status` = #{status},</if>
+            <if test="userId != null">`user_id` = #{userId}</if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+		delete from tb_comment where id = #{value}
+	</delete>
+
+    <delete id="deleteBatch">
+        delete from tb_comment where id in
+        <foreach item="id" collection="array" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+</mapper>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="iris.platform.shop.mapper.KeywordsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="iris.platform.common.entity.Keywords">
+        <id column="id" property="id" />
+        <result column="keyword" property="keyword" />
+        <result column="is_hot" property="isHot" />
+        <result column="is_default" property="isDefault" />
+        <result column="is_show" property="isShow" />
+        <result column="sort_order" property="sortOrder" />
+        <result column="scheme_url" property="schemeUrl" />
+        <result column="type" property="type" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, keyword, is_hot, is_default, is_show, sort_order, scheme_url, type
+    </sql>
+
+</mapper>
