@@ -8,7 +8,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>iris.platform</groupId>
-    <artifactId>platfrom-common</artifactId>
+    <artifactId>platform-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>platfrom-common</name>
     <description>Demo project for Spring Boot</description>

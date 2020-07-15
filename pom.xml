@@ -20,7 +20,7 @@
 	</properties>
 
 	<modules>
-		<module>platfrom-common</module>
+		<module>platform-common</module>
 		<module>platform-shop</module>
 	</modules>
 

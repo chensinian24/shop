@@ -3,6 +3,7 @@ package iris.platform.shop.controller;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /** 
@@ -10,14 +11,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @date: 2018-10-17 22:57:36 
  */
 @Controller
-@RequestMapping("/")
+@RequestMapping("/shop")
 @Slf4j
-public class TestController {
+public class AdminController {
 
-    @RequestMapping("/")
-    public String index(ModelMap modelMap) {
+    @RequestMapping("/{path}")
+    public String index(ModelMap modelMap, @PathVariable String path) {
         log.info("here is the first page");
-        return "login";
+        return "/shop/"+path;
     }
 }
 
