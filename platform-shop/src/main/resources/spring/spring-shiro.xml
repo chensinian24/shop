@@ -49,9 +49,15 @@
 				/api/**=anon
 				/api/**=noSessionCreation
 	        	/login.html=anon
+				/swagger-ui.html=anon
+				/swagger-resources=anon
+				/v2/api-docs=anon
+				/webjars/springfox-swagger-ui/**=anon
 	        	/sys/login=anon
+				/configuration/security=anon
+				/configuration/ui=anon
 	        	/captcha.jpg=anon
-	        	/**=anon
+	        	/**=authc
 	        </value>
 	    </property>
 	</bean>
