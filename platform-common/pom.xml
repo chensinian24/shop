@@ -22,7 +22,9 @@
         <ehcache.version>2.10.4</ehcache.version>
         <jgroups.version>3.6.13.Final</jgroups.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-
+        <aliyun-oss-version>2.5.0</aliyun-oss-version>
+        <qcloud-cos-version>5.2.4</qcloud-cos-version>
+        <qiniu-version>[7.2.0, 7.2.99]</qiniu-version>
     </properties>
 
     <dependencies>
@@ -66,6 +68,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--引入AOP依赖-->
+
         <!--        springboot 整合shiro-->
         <dependency>
             <groupId>org.apache.shiro</groupId>
@@ -93,7 +97,6 @@
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
-            <version>2.9.0</version>
         </dependency>
         <dependency><!-- Ehcache 2.x //-->
             <groupId>net.sf.ehcache</groupId>
@@ -118,7 +121,18 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
+        <!-- httpclient -->
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>commons-codec</artifactId>
+                    <groupId>commons-codec</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
         <!--验证码生成工具-->
         <dependency>
             <groupId>com.github.penggle</groupId>
@@ -231,6 +245,25 @@
             </exclusions>
         </dependency>
         <!-- POI依赖 ，处理EXCEL WORD  PDF-->
+
+
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>${aliyun-oss-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qcloud</groupId>
+            <artifactId>cos_api</artifactId>
+            <version>${qcloud-cos-version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>${qiniu-version}</version>
+        </dependency>
     </dependencies>
 
 

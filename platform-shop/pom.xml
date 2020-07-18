@@ -16,9 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <aliyun-oss-version>2.5.0</aliyun-oss-version>
-        <qcloud-cos-version>5.2.4</qcloud-cos-version>
-        <qiniu-version>[7.2.0, 7.2.99]</qiniu-version>
+
     </properties>
 
     <dependencies>
@@ -40,18 +38,8 @@
 
         <dependency>
             <groupId>iris.platform</groupId>
-            <artifactId>platform-common</artifactId>
+            <artifactId>platform-admin</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>velocity-engine-core</artifactId>
-                    <groupId>org.apache.velocity</groupId>
-                </exclusion>
-                <exclusion>
-                    <artifactId>jedis</artifactId>
-                    <groupId>redis.clients</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -94,36 +82,6 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
-        </dependency>
-        <!-- httpclient -->
-        <dependency>
-            <groupId>commons-httpclient</groupId>
-            <artifactId>commons-httpclient</artifactId>
-            <version>3.1</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>commons-codec</artifactId>
-                    <groupId>commons-codec</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-
-        <dependency>
-            <groupId>com.aliyun.oss</groupId>
-            <artifactId>aliyun-sdk-oss</artifactId>
-            <version>${aliyun-oss-version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.qcloud</groupId>
-            <artifactId>cos_api</artifactId>
-            <version>${qcloud-cos-version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.qiniu</groupId>
-            <artifactId>qiniu-java-sdk</artifactId>
-            <version>${qiniu-version}</version>
         </dependency>
 
         <!-- springboot velocity 视图解析器 -->

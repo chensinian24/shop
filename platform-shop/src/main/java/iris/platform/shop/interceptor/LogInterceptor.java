@@ -2,7 +2,7 @@ package iris.platform.shop.interceptor;
 
 import iris.platform.common.entity.SysUserEntity;
 import iris.platform.common.utils.Constant;
-import iris.platform.shop.util.RequestUtil;
+import iris.platform.common.utils.RequestUtil;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.shiro.SecurityUtils;

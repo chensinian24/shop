@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/platfrom-common/pom.xml" />
         <option value="$PROJECT_DIR$/platform-shop/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-admin/pom.xml" />
       </list>
     </option>
   </component>

@@ -5,7 +5,7 @@ import iris.platform.shop.service.UserService;
 import iris.platform.common.utils.PageUtils;
 import iris.platform.common.utils.Query;
 import iris.platform.common.utils.R;
-import iris.platform.shop.util.excel.ExcelExport;
+import iris.platform.common.utils.excel.ExcelExport;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
