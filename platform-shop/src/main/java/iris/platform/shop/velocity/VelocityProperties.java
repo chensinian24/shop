@@ -15,7 +15,7 @@ import iris.platform.shop.velocity.VelocityViewResolver;
 @ConfigurationProperties(prefix = "spring.velocity")
 public class VelocityProperties extends AbstractTemplateViewResolverProperties {
 
-	public static final String DEFAULT_RESOURCE_LOADER_PATH = "classpath:/templates/";
+	public static final String DEFAULT_RESOURCE_LOADER_PATH = "classpath:/template/";
 
 	public static final String DEFAULT_PREFIX = "";
 

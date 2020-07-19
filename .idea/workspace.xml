@@ -2,23 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02cd38c0-b4dc-42bc-b5e8-02c1bea523d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_3_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/SysPageController2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/SysPageController3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform-admin/src/main/java/iris/platform/admin/controller/SysPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-admin/src/main/java/iris/platform/admin/controller/SysPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/PlatformShopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/PlatformShopApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/config/WebResourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/config/WebResourceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AdminController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/velocity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/velocity.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/ad.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/ad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/address.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/adposition.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/adposition.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/attribute.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/attribute.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/attributecategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/attributecategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/brand.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/brand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/channel.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/channel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/collect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/feedback.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/feedback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/footprint.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/footprint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goodshistory.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/goodshistory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goodsissue.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/goodsissue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/goodsspecification.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/goodsspecification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/helpissue.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/helpissue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/helptype.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/helptype.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/keywords.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/keywords.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/orderPrint.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/orderPrint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/searchhistory.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/searchhistory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/shopuser.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/shopuser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/specification.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/specification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/topic.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/topic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/topiccategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/topiccategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/usercoupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/usercoupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/shop/userlevel.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/shop/userlevel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/config.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/config.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/dept.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/dept.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/generator.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/generator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/icon.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/icon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/macro.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/macro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/oss.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/oss.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/region.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/region.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/schedule.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/schedule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/schedule_log.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/schedule_log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/smslog.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/smslog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-shop/src/main/resources/templates/sys/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/platform-shop/src/main/resources/template/sys/user.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +124,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="iris.platform.platformshop.controller.reqVo" />
+      <recent name="iris.platform.platformshop.controller.response" />
+      <recent name="iris.platform.platformshop.model" />
+      <recent name="iris.platform.platformshop.testAdmin" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="iris.platform.platformshop.service.admin" />
       <recent name="iris.platform.platformshop.service.impl" />
@@ -95,11 +140,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="iris.platform.shop" />
       <recent name="iris.platform.platformshop.service" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workstation\platform\platform-shop\src\main\resources" />
-      <recent name="E:\workstation\platform\platform-shop\src\main\resources\static" />
-      <recent name="E:\workstation\platform\platform-shop\src\main\resources\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workstation\platform\platform-api\src\main\resources\mapper" />
@@ -115,11 +155,10 @@
       <recent name="iris.platform.shop.util" />
       <recent name="iris.platform.platformshop.service" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="iris.platform.platformshop.controller.reqVo" />
-      <recent name="iris.platform.platformshop.controller.response" />
-      <recent name="iris.platform.platformshop.model" />
-      <recent name="iris.platform.platformshop.testAdmin" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\static" />
+      <recent name="E:\workstation\platform\platform-shop\src\main\resources\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +168,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PlatformShopApplication (1)">
+  <component name="RunManager" selected="Maven.platform-shop [package]">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iris.platform.shop.entity.CodeGenerator" />
       <module name="platform-shop" />
@@ -191,6 +230,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="platform" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="platform" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="platform-shop [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -214,6 +300,20 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="remote_shop" type="Remote">
+      <module name="platform-shop" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="127.0.0.1" />
+      <option name="PORT" value="7015" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7015" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <method v="2" />
     </configuration>
     <configuration name="PlatformAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -258,6 +358,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="JUnit.MyTest.test" />
+      <item itemvalue="JUnit.PlatformShopApplicationTests.test" />
+      <item itemvalue="JUnit.SystemServiceTest.getProductDetail" />
+      <item itemvalue="Maven.platform-shop [package]" />
+      <item itemvalue="Remote.remote_shop" />
+      <item itemvalue="Spring Boot.PlatformAdminApplication" />
+      <item itemvalue="Spring Boot.PlatformApiApplication" />
+      <item itemvalue="Spring Boot.PlatformApplication" />
+      <item itemvalue="Spring Boot.PlatformShopApplication" />
+      <item itemvalue="Spring Boot.PlatformShopApplication (1)" />
+      <item itemvalue="Spring Boot.PlatfromCommonApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Maven.platform-shop [package]" />
@@ -277,6 +391,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Failed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
@@ -342,6 +461,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1592142345731" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595164296659">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1595164296659" />
     <state x="469" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595042821288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -378,50 +501,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1593963542996" />
-    <state width="549" height="466" key="DebuggerActiveHint" timestamp="1593963207965">
+    <state width="549" height="466" key="DebuggerActiveHint" timestamp="1595168232408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="549" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593963207965" />
-    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1595079508984">
+    <state width="549" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1595168232408" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog" timestamp="1595170043710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595079508984" />
+    <state x="147" y="65" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1595170043710" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1594541712648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594541712648" />
-    <state width="1024" height="225" key="GridCell.Tab.0.bottom" timestamp="1595163375440">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom" timestamp="1595172114532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595163375440" />
-    <state width="1024" height="225" key="GridCell.Tab.0.center" timestamp="1595163375440">
+    <state width="1493" height="237" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595172114532" />
+    <state width="1493" height="237" key="GridCell.Tab.0.center" timestamp="1595172114532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595163375440" />
-    <state width="1024" height="225" key="GridCell.Tab.0.left" timestamp="1595163375440">
+    <state width="1493" height="237" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595172114532" />
+    <state width="1493" height="237" key="GridCell.Tab.0.left" timestamp="1595172114532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595163375440" />
-    <state width="1024" height="225" key="GridCell.Tab.0.right" timestamp="1595163375440">
+    <state width="1493" height="237" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595172114532" />
+    <state width="1493" height="237" key="GridCell.Tab.0.right" timestamp="1595172114532">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595163375440" />
-    <state width="1024" height="225" key="GridCell.Tab.1.bottom" timestamp="1595163375441">
+    <state width="1493" height="237" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595172114532" />
+    <state width="1024" height="225" key="GridCell.Tab.1.bottom" timestamp="1595170332457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595163375441" />
-    <state width="1024" height="225" key="GridCell.Tab.1.center" timestamp="1595163375441">
+    <state width="1024" height="225" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595170332457" />
+    <state width="1024" height="225" key="GridCell.Tab.1.center" timestamp="1595170332457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595163375441" />
-    <state width="1024" height="225" key="GridCell.Tab.1.left" timestamp="1595163375441">
+    <state width="1024" height="225" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595170332457" />
+    <state width="1024" height="225" key="GridCell.Tab.1.left" timestamp="1595170332457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595163375441" />
-    <state width="1024" height="225" key="GridCell.Tab.1.right" timestamp="1595163375441">
+    <state width="1024" height="225" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595170332457" />
+    <state width="1024" height="225" key="GridCell.Tab.1.right" timestamp="1595170332457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1024" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595163375441" />
+    <state width="1024" height="225" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595170332457" />
     <state width="1024" height="225" key="GridCell.Tab.2.bottom" timestamp="1594568855886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -438,6 +561,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1024" height="225" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1594568855886" />
+    <state x="526" y="123" key="RollbackChangesDialog" timestamp="1595170015409">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1595170015408" />
     <state x="270" y="0" key="SettingsEditor" timestamp="1595084754036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -450,18 +577,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="502" y="130" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1591887744378" />
-    <state x="447" y="11" width="1040" height="801" key="find.popup" timestamp="1595163273912">
+    <state x="447" y="10" width="1040" height="801" key="find.popup" timestamp="1595171791323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="11" width="1040" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595163273912" />
+    <state x="447" y="10" width="1040" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1595171791323" />
     <state x="178" y="113" key="new project wizard" timestamp="1595055976974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="113" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595055976974" />
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1595163295327">
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1595171551657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595163295327" />
+    <state x="425" y="66" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595171551657" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,6 +602,36 @@
           <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/controller/AdminController.java</url>
           <line>18</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-admin/src/main/java/iris/platform/admin/controller/SysPageController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityTemplateAvailabilityProvider.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/platform-shop/src/main/java/iris/platform/shop/velocity/VelocityView.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.java</url>
+          <line>351</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar!/org/apache/velocity/runtime/resource/ResourceManagerImpl.java</url>
+          <line>408</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
