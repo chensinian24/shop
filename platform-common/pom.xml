@@ -10,7 +10,7 @@
     <groupId>iris.platform</groupId>
     <artifactId>platform-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>platfrom-common</name>
+    <name>platform-common</name>
     <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
     <properties>
@@ -68,6 +68,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <dependency> <!-- 引入log4j2依赖 -->
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
         <!--引入AOP依赖-->
 
         <!--        springboot 整合shiro-->
@@ -110,17 +115,7 @@
             <version>${jgroups.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>net.oschina.j2cache</groupId>
-            <artifactId>j2cache-core</artifactId>
-            <version>2.7.2-release</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>jedis</artifactId>
-                    <groupId>redis.clients</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+
         <!-- httpclient -->
         <dependency>
             <groupId>commons-httpclient</groupId>
@@ -199,13 +194,7 @@
             <version>2.9.10</version>
         </dependency>
 
-        <dependency>
 
-            <groupId>org.apache.logging.log4j</groupId>
-
-            <artifactId>log4j-slf4j-impl</artifactId>
-
-        </dependency>
         <!-- POI依赖 ，处理EXCEL WORD  PDF-->
         <dependency>
             <groupId>org.apache.poi</groupId>

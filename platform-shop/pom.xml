@@ -85,11 +85,7 @@
             <artifactId>spring-boot-starter-velocity</artifactId>
             <version>1.4.2.RELEASE</version>    <!-- 由于本项目SpringBoot版本为2.1.3早已不支持velocity，这里如果不指定版本会找不到   -->
         </dependency>
-        <dependency>
-            <groupId>org.apache.velocity</groupId>
-            <artifactId>velocity-tools</artifactId>
-            <version>2.0</version>
-        </dependency>
+
 
     </dependencies>
 
@@ -103,11 +99,11 @@
             </resource>
             <resource>
                 <directory>src/main/resources</directory>
-                <includes>
-                    <include>**.*</include>
-                    <include>**/*.*</include><!-- i18n能读取到 -->
-                    <include>**/*/*.*</include>
-                </includes>
+<!--                <includes>-->
+<!--                    <include>**.*</include>-->
+<!--                    <include>**/*.*</include>&lt;!&ndash; i18n能读取到 &ndash;&gt;-->
+<!--                    <include>**/*/*.*</include>-->
+<!--                </includes>-->
             </resource>
         </resources>
         <plugins>
@@ -118,7 +114,7 @@
                 <configuration>
                     <fork>true</fork> <!-- 如果没有该配置，devtools不会生效 -->
                     <!-- 指定该Main Class为全局的唯一入口 -->
-                    <mainClass>iris.platform.shop.PlatformShopApplication</mainClass>
+                    <mainClass>iris.platform.PlatformShopApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

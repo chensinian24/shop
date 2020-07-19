@@ -22,9 +22,9 @@ public class SysPageController {
      * @param url    url
      * @return 页面视图路径
      */
-    @RequestMapping("{module}/{url}.html")
+    @RequestMapping("{module}/{url}")
     public String page(@PathVariable("module") String module, @PathVariable("url") String url) {
-        return module + "/" + url + ".html";
+        return module + "/" + url  ;
     }
 
 }

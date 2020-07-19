@@ -22,6 +22,9 @@
 	<modules>
 		<module>platform-common</module>
 		<module>platform-shop</module>
+		<module>platform-api</module>
+		<module>platform-admin</module>
+
 	</modules>
 
 	<dependencies>

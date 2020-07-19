@@ -19,7 +19,7 @@ public class VelocityProperties extends AbstractTemplateViewResolverProperties {
 
 	public static final String DEFAULT_PREFIX = "";
 
-	public static final String DEFAULT_SUFFIX = ".vm";
+	public static final String DEFAULT_SUFFIX = ".html";
 
 	/**
 	 * Name of the DateTool helper object to expose in the Velocity context of the view.

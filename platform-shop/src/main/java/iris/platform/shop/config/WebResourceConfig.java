@@ -19,6 +19,12 @@ public class WebResourceConfig implements WebMvcConfigurer {
     @Autowired
     LoginUserHandlerMethodArgumentResolver loginResolver;
 
+
+    @Override
+    public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
+        configurer.favorPathExtension(false);
+    }
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/login.html").addResourceLocations("classpath:/templates/login.html");
