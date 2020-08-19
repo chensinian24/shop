@@ -14,7 +14,7 @@ import iris.platform.util.wechat.WechatUtil;
 import iris.platform.common.utils.*;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -38,8 +38,8 @@ import java.util.*;
 @Api(tags = "商户支付")
 @RestController
 @RequestMapping("/api/pay")
+@Slf4j
 public class ApiPayController extends ApiBaseAction {
-    private Logger logger = Logger.getLogger(getClass());
     @Autowired
     private ApiOrderService orderService;
     @Autowired
@@ -116,7 +116,7 @@ public class ApiPayController extends ApiBaseAction {
             parame.put("sign", sign);
 
             String xml = MapUtils.convertMap2Xml(parame);
-            logger.info("xml:" + xml);
+            log.info("xml:" + xml);
             Map<String, Object> resultUn = XmlUtil.xmlStrToMap(WechatUtil.requestOnce(ResourceUtil.getConfigByName("wx.uniformorder"), xml));
             // 响应报文
             String return_code = MapUtils.getString("return_code", resultUn);
@@ -181,7 +181,7 @@ public class ApiPayController extends ApiBaseAction {
         parame.put("sign", sign);
 
         String xml = MapUtils.convertMap2Xml(parame);
-        logger.info("xml:" + xml);
+        log.info("xml:" + xml);
         Map<String, Object> resultUn = null;
         try {
             resultUn = XmlUtil.xmlStrToMap(WechatUtil.requestOnce(ResourceUtil.getConfigByName("wx.orderquery"), xml));
@@ -261,12 +261,12 @@ public class ApiPayController extends ApiBaseAction {
             if (result_code.equalsIgnoreCase("FAIL")) {
                 //订单编号
                 String out_trade_no = result.getOut_trade_no();
-                logger.error("订单" + out_trade_no + "支付失败");
+                log.error("订单" + out_trade_no + "支付失败");
                 response.getWriter().write(setXml("SUCCESS", "OK"));
             } else if (result_code.equalsIgnoreCase("SUCCESS")) {
                 //订单编号
                 String out_trade_no = result.getOut_trade_no();
-                logger.error("订单" + out_trade_no + "支付成功");
+                log.error("订单" + out_trade_no + "支付成功");
                 // 业务处理
                 OrderVo orderInfo = orderService.queryObjectByOrderSn(out_trade_no);
                 orderInfo.setPay_status(2);

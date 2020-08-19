@@ -24,8 +24,8 @@ import iris.platform.common.validator.Assert;
 import com.qiniu.util.StringUtils;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections.MapUtils;
-import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -46,8 +46,8 @@ import java.util.Map;
 @Api(tags = "API登录授权接口")
 @RestController
 @RequestMapping("/api/auth")
+@Slf4j
 public class ApiAuthController extends ApiBaseAction {
-    private Logger logger = Logger.getLogger(getClass());
     @Autowired
     private ApiUserService userService;
     @Autowired
@@ -80,6 +80,7 @@ public class ApiAuthController extends ApiBaseAction {
     @PostMapping("login_by_weixin")
     public Object loginByWeixin() {
         JSONObject jsonParam = this.getJsonRequest();
+        log.info("》》》登录信息:{}",jsonParam);
         FullUserInfo fullUserInfo = null;
         String code = "";
         if (!StringUtils.isNullOrEmpty(jsonParam.getString("code"))) {
@@ -98,7 +99,7 @@ public class ApiAuthController extends ApiBaseAction {
 
         //获取openid
         String requestUrl = ApiUserUtils.getWebAccess(code);//通过自定义工具类组合出小程序需要的登录凭证 code
-        logger.info("》》》组合token为：" + requestUrl);
+        log.info("》》》组合token为：" + requestUrl);
         JSONObject sessionData = CommonUtil.httpsRequest(requestUrl, "GET", null);
 
         if (null == sessionData || StringUtils.isNullOrEmpty(sessionData.getString("openid"))) {
@@ -139,7 +140,9 @@ public class ApiAuthController extends ApiBaseAction {
         }
 
         resultObj.put("token", token);
+
         resultObj.put("userInfo", userInfo);
+
         resultObj.put("userId", userVo.getUserId());
         return toResponsSuccess(resultObj);
     }
@@ -208,5 +211,15 @@ public class ApiAuthController extends ApiBaseAction {
         } catch (AlipayApiException e) {
             return toResponsFail("登录失败");
         }
+    }
+
+
+    public static void main(String[] args) {
+        Map<String, Object> resultObj = new HashMap<String, Object>();
+        UserInfo userInfo = new UserInfo();
+        userInfo.setAvatarUrl("aaaa");
+        userInfo.setGender(1);
+        resultObj.put("user",userInfo);
+        System.out.println(resultObj);
     }
 }

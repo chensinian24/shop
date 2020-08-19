@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSONObject;
 import iris.platform.entity.TokenEntity;
 import iris.platform.interceptor.AuthorizationInterceptor;
 import iris.platform.service.TokenService;
-import org.apache.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.shiro.authz.UnauthorizedException;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,8 +32,9 @@ import java.util.Map;
  * @Description: 基础控制类
  * @date 2016年9月2日
  */
+@Slf4j
 public class ApiBaseAction {
-    protected Logger logger = Logger.getLogger(getClass());
+
     /**
      * 得到request对象
      */
@@ -83,7 +84,7 @@ public class ApiBaseAction {
 
     public Map<String, Object> toResponsSuccess(Object data) {
         Map<String, Object> rp = toResponsObject(0, "执行成功", data);
-        logger.info("response:" + rp);
+        log.info("response:" + rp);
         return rp;
     }
 

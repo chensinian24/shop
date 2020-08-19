@@ -3,8 +3,7 @@ package iris.platform.util;
 import com.alibaba.fastjson.JSONObject;
 import iris.platform.common.utils.CharUtil;
 import iris.platform.common.utils.DateUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
@@ -19,9 +18,8 @@ import java.net.URL;
 import java.security.MessageDigest;
 import java.util.Calendar;
 import java.util.Date;
-
+@Slf4j
 public class CommonUtil {
-    private static Logger log = LoggerFactory.getLogger(CommonUtil.class);
 
     /**
      * 发送https请求
